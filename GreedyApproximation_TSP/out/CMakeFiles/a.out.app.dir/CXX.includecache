@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/edge.hpp
+
+/home/compsci260p/projects/project2/app/main.cpp
+edge.hpp
+/home/compsci260p/projects/project2/app/edge.hpp
+proj2.hpp
+/home/compsci260p/projects/project2/app/proj2.hpp
+
+/home/compsci260p/projects/project2/app/proj2.cpp
+proj2.hpp
+/home/compsci260p/projects/project2/app/proj2.hpp
+queue
+-
+stack
+-
+iostream
+-
+
+/home/compsci260p/projects/project2/app/proj2.hpp
+vector
+-
+edge.hpp
+/home/compsci260p/projects/project2/app/edge.hpp
+list
+-
+iostream
+-
+

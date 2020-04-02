@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/compsci260p/projects/proj1/app/proj2.cpp
+proj2.hpp
+/home/compsci260p/projects/proj1/app/proj2.hpp
+queue
+-
+stack
+-
+
+/home/compsci260p/projects/proj1/app/proj2.hpp
+vector
+-
+edge.hpp
+/home/compsci260p/projects/proj1/app/edge.hpp
+list
+-
+iostream
+-
+
+/home/compsci260p/projects/proj1/gtest/gtestmain.cpp
+gtest/gtest.h
+-
+
+/home/compsci260p/projects/proj1/gtest/proj1tests.cpp
+vector
+-
+gtest/gtest.h
+-
+proj1.hpp
+/home/compsci260p/projects/proj1/gtest/proj1.hpp
+

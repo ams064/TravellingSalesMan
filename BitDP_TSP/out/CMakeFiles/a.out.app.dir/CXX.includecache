@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/compsci260p/projects/proj1/app/main.cpp
+iostream
+-
+proj1.hpp
+/home/compsci260p/projects/proj1/app/proj1.hpp
+
+/home/compsci260p/projects/proj1/app/proj1.cpp
+proj1.hpp
+/home/compsci260p/projects/proj1/app/proj1.hpp
+iostream
+-
+limits
+-
+
+/home/compsci260p/projects/proj1/app/proj1.hpp
+vector
+-
+unordered_map
+-
+unordered_set
+-
+
